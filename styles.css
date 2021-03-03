@@ -1,0 +1,117 @@
+.grocery_item {
+  width: 100vw;
+  height: 300px;
+  background-color: #f4f4f4;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.grocery_img {
+  width: 40%;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.grocery_metas {
+  width: 50%;
+  height: 90%;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.grocery_title {
+  color: rgb(18, 5, 26);
+  height: 25%;
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  margin-top: 15px;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Larsseit";
+  overflow: hidden;
+  word-wrap: ellipsis;
+  max-lines: 3;
+  text-overflow: ellipsis;
+}
+.grocery_price {
+  width: 100px;
+  height: 25px;
+  background-color: #22b361;
+  font-size: 17px;
+  padding-top: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 15px;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  font-family: "Larsseit";
+}
+.grocery_description {
+  color: rgb(70, 70, 70);
+  height: 25%;
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+  margin-top: 5px;
+  align-items: center;
+  font-family: "Larsseit";
+  overflow: hidden;
+  word-wrap: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.grocery_instock {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  align-items: center;
+  font-weight: 400;
+  color: #22b361;
+  font-family: "Larsseit";
+}
+
+.grocery_item_action {
+  width: 115px;
+  height: 27px;
+  background-color: #4369a3;
+  font-size: 15px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 15px;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  font-family: "Larsseit";
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.eot");
+  src: url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.svg#Larsseit")
+      format("svg");
+}
